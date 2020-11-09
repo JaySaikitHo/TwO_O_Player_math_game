@@ -1,6 +1,6 @@
-require "./game_class.rb"
+require_relative "./game_class"
 
 
 newgame = Game.new
 
-newgame.startgame
+newgame.start_game

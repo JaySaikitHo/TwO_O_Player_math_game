@@ -6,12 +6,14 @@ class Player
     @life = 3
   end
   
+  def get_life
+    @life
+  end
+
   def life_loss()
     @life -= 1
+    puts "You got it wrong!"
   end
  
 end
 
-jay = Player.new("Jay")
-jay.life_loss
-puts jay.life
