@@ -9,7 +9,7 @@ class Player
   def life_loss()
     @life -= 1
   end
-
+ 
 end
 
 jay = Player.new("Jay")
