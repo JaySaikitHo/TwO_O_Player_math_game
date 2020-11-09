@@ -12,8 +12,7 @@ class Questions
   end
   
   def ask_question ()
-    puts random_question
-    
+     random_question
   end
   
   def check_answer()
